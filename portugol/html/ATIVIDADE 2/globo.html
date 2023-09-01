@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globo</title>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: linear-gradient(to right, red, green, blue);
+        }
+
+        header{
+            margin: auto;
+        }
+        header div{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+            font-family: 'JetBrains Mono', monospace;
+            align-items: center;
+            height: 30px;
+            background-color: white;
+
+
+        }
+        a{
+            text-decoration: none;
+        }
+        .btn-entrar{
+            border: 1px solid gray;
+            background-color: darkgray;
+            border-radius: 2px;
+            padding: 2px;
+        }
+        .btn-entrar:hover{
+            background-color: #5aa2eb;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <nav style="margin-left: 30px;">
+                <a href="#" style="color: #5aa2eb;">globo.com</a>
+                <a href="#" style="color: #c4170c;">g1</a>
+                <a href="#" style="color: #06aa48;">ge</a>
+                <a href="#" style="color: #ff6700;">gshow</a>
+                <a href="#" id="globo" style="color: #ee3042;">globoplay</a>
+            </nav>
+            <nav style="margin-right: 30px;">
+                <a href="#">Assine já</a>
+                <a href="#" class="btn-entrar">Entrar ></a>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>

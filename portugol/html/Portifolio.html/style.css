@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Russo One', sans-serif
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 120px;
+    margin: 0 auto;
+}
+#Imagemamanda{
+    width: 80px;
+}
+
+header{
+    padding: 40px 4%;
+}
+header >#interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: rgb(136, 2, 2);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: red;
+    transform: scale(1.10);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .btn-contato button{
+    padding: 8px 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(129, 1, 1);
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    transition: 0.2s;
+}
+header .btn-contato button:hover{
+    color: white;
+    transform: scale(1.05);
+}
+#Perfil{
+    width: 250px;
+}
