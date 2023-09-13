@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(173, 255, 255);
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+#elementos{
+    margin: auto;
+    width: fit-content;
+
+}
+.primeiro , .segundo{
+    border: 1px solid rgb(0, 160, 160);
+    padding: 2em;
+    display: inline-block;
+    margin: 1em 0.5em;
+}
+button{
+    padding: 0.2em;
+    color: aqua;
+    background-color: black;
+    border-color: dimgray;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: aqua;
+    border: 2px solid rgb(0, 145, 145);
+    margin: 0.5em 0;
+    padding: 0.3em;
+    background-color: black;
+    transition: 0.5s;
+}
+li:hover{
+    color: black;
+    background-color: aqua;
+
+}
+.primeiro .selecionando{
+    box-shadow: 0 0 15px blue, inset 0 0 15px blue;
+}
+.segundo .selecionando{
+    box-shadow: 0 0 10px red, inset 0 0 10px red;
+}
