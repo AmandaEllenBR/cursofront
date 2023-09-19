@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    background-image: url(./pexels-andrea-piacquadio-3763878.jpg);
+    background-position: center center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20em;
+    height: 30vh;
+    gap: 1.5em;
+}
+button{
+    background-color: brown;
+    border-radius: 0.3em;
+    border-color: brown;
+    color:  rgb(255, 238, 208);
+    width: 7em;
+    height: 1.7em;
+    
+}
+.timer{
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+    color: brown;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: brown;
+    min-width: 90px;
+}
+.separator{
+    padding: 0 10 px;
+    color: rgb(201, 172, 120);
+}
