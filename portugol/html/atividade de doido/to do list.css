@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: rgb(255, 29, 105) ;
+}
+.container{
+    width: 55%;
+    margin: auto;
+
+}
+.primeiro{
+    border: 3px solid rgb(255, 29, 105);
+   margin: 1em 0.5em;
+
+}
+ul{
+    text-align: center;
+}
+button{
+    padding: 0.5em;
+    background-color: black;
+    color: rgb(255, 29, 105);
+    margin: 1em 0.5em;
+}
+h2{
+    text-align: center;
+    color: rgb(255, 29, 105) 
+
+}
+.segundo{
+    border: 3px solid rgb(255, 29, 105);
+   
+}
