@@ -1,0 +1,7 @@
+#btn-1{
+    max-width: 10em;
+    padding: 1em;
+    border-color: aqua;
+    background-color: var(--blue);
+    border-radius: 5px;
+}
