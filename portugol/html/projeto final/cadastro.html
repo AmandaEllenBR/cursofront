@@ -7,40 +7,79 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
-        <div class="container-1" id="container-1">
-            <div class="form-img">
-                <img src="./undraw_sign_up_n6im.svg" alt="">
-            </div>
-            <div>
-                <label for="nome">Nome*</label>
-                <input type="text" id="text-nome">
-            </div>
-            <div>
-                <label for="email">Email*</label>
-                <input type="email" name="email" id="email">
-            </div>
-            <div>
-                <label for="telefone">Telefone*</label>
-                <input type="tel" name="telefone" id="telefone">
-            </div>
-            <div>
-                <label for="servico">Serviços*</label>
-                <select name="selecione" id="selecione" data-use-tyoe="STRING">
-                    <option value="">Selecione</option>
-                    <option value="Depilação">Depilação</option>
-                    <option value="Tratamento Capilar">Tratamento Capilar</option>
-                    <option value="Unhas De Gel">Unhas De Gel</option>
-                    <option value="Unhas De Fibra">Unhas De Fibra</option>
-                    <option value="Design De Sobrancelhas">Design De Sobrancelhas</option>
-                    <option value="Pé e Mão">Pé e Mão</option>
-                    <option value="Cosméticos">Cosméticos</option>
-                </select>
-            </div>
-            <div class="button-agenda">
-                <button class="agenda" id="agenda">Agendar Visita</button>
-            </div>
+   
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome*</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite Seu Nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email*</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu E-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular/WhatsApp*</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="servico">Serviços*</label>
+                        <select name="selecione" id="selecione" data-use-tyoe="STRING">
+                            <option value="">Selecione</option>
+                            <option value="Depilação">Depilação</option>
+                            <option value="Tratamento Capilar">Tratamento Capilar</option>
+                            <option value="Unhas De Gel">Unhas De Gel</option>
+                            <option value="Unhas De Fibra">Unhas De Fibra</option>
+                            <option value="Design De Sobrancelhas">Design De Sobrancelhas</option>
+                            <option value="Pé e Mão">Pé e Mão</option>
+                            <option value="Cosméticos">Cosméticos</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-agenda">
+                    <button class="agenda" id="agenda">Agendar Visita</button>
+                </div>
+
+
+               
+            </form>
         </div>
-    </form>
+    </div>
+
 </body>
 </html>
