@@ -6,7 +6,9 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body2">
+
+  
    
         <div class="form">
             <form action="#">
@@ -20,22 +22,22 @@
                 <div class="input-group">
                     <div class="input-box">
                         <label for="firstname">Nome*</label>
-                        <input id="firstname" type="text" name="firstname" placeholder="Digite Seu Nome" required>
+                        <input id="name" type="text"  placeholder="Digite Seu Nome" required>
                     </div>
 
                     <div class="input-box">
                         <label for="email">Email*</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu E-mail" required>
+                        <input id="email" type="email"  placeholder="Digite seu E-mail" required>
                     </div>
 
                     <div class="input-box">
                         <label for="number">Celular/WhatsApp*</label>
-                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        <input id="number" type="tel"  placeholder="(xx) xxxx-xxxx" required>
                     </div>
 
                     <div class="input-box">
                         <label for="servico">Serviços*</label>
-                        <select name="selecione" id="selecione" data-use-tyoe="STRING">
+                        <select id="selecione" id="selecione" data-use-tyoe="STRING" required>
                             <option value="">Selecione</option>
                             <option value="Depilação">Depilação</option>
                             <option value="Tratamento Capilar">Tratamento Capilar</option>
@@ -72,7 +74,7 @@
                 </div>
 
                 <div class="button-agenda">
-                    <button class="agenda" id="agenda">Agendar Visita</button>
+                    <button type="submit" id="agenda" >Agendar Visita</button>
                 </div>
 
 
@@ -81,5 +83,9 @@
         </div>
     </div>
 
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
