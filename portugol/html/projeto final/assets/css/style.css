@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,12 +7,37 @@
 }
 body{
     background-color: #fefcff;
+    font-family: 'Dosis', sans-serif;
     
+}
+
+.pp{
+    color: #373636;
+}
+
+.maps{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.maps iframe{
+    width: 205%;
+    height: 130%;
 }
 
 nav{
     background-color: #8b9aff;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 45px;
+    border-bottom: 1px, solid ;
+    box-shadow: 0px 0px 3px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+     
 
 }
 nav ul li{
@@ -25,6 +52,7 @@ li a{
     color: #373636;
     
 }
+
 button{
     border-color: #8b9aff;
     color: #8b9aff;
@@ -48,18 +76,19 @@ button{
     font-size: 20px;
     font-style: normal;
     font-weight: normal;
-    height: 35px;
+    height: 45px;
     justify-content: center;
     line-height: 1.42857;
     margin-bottom: 0px;
-    margin-top: 10px;
-    max-width: 220px;
+    margin-top: 15px;
+    max-width: 295px;
     text-align: center;
     text-decoration: none;
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
 }
+
 .container-1 {
     width: 50%;
     height: 50vh;
@@ -67,9 +96,11 @@ button{
 }
 h1{
     color: #fefcff;
+    text-align: center;
 }
 label{
     color: #fefcff;
+    text-align: center;
 }
 .body2{
     width: 100%;
@@ -77,20 +108,20 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./232.jpg);
+    background-image: url(../img/pexels-fauxels-3184457.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover ;
     background-attachment: fixed;
 }
 .form {
-    width: 35%;
-    height: 55%;
+    width: 40%;
+    height: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #7972fd71;
+    background-color: #435aec6b;
     border-radius: 10%;
 }
 
@@ -105,7 +136,7 @@ label{
 .login-button button a {
     text-decoration: none;
     font-weight: 500;
-    color: #fff;
+    color: #fefcff;
 }
 
 .input-box {
@@ -121,7 +152,7 @@ label{
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
+    box-shadow: 1px 1px 6px #fefcff;
     font-size: 0.8rem;
 }
 
@@ -137,7 +168,12 @@ label{
 .gender-input label {
     font-size: 0.81rem;
     font-weight: 600;
-    color: #000000c0;
+    color: #fefcff;
+}
+
+p{
+    color: #fefcff;
+    text-align: center;
 }
 
 
